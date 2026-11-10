@@ -1,0 +1,344 @@
+[
+  {
+    "name": "Rajat Shetty",
+    "contact": "9817394829",
+    "email": "rajatshetty12@gmail.com",
+    "password": "6627112892",
+    "business": "Merchant",
+    "pan": "AJFKE2939N",
+    "aadhaar": "",
+    "ship": 12,
+    "cargo": [
+      {
+        "id": "C11",
+        "weight": 15,
+        "premium": true,
+        "loaded": true,
+        "slot": null,
+        "containers": 1,
+        "price": 23000
+      },
+      {
+        "id": "C12",
+        "weight": 40,
+        "premium": false,
+        "loaded": false,
+        "slot": 1,
+        "containers": 2,
+        "price": 20000
+      },
+      {
+        "id": "C13",
+        "weight": 35,
+        "premium": false,
+        "loaded": false,
+        "slot": 2,
+        "containers": 2,
+        "price": 20000
+      },
+      {
+        "id": "C14",
+        "weight": 20,
+        "premium": false,
+        "loaded": false,
+        "slot": 3,
+        "containers": 1,
+        "price": 20000
+      },
+      {
+        "id": "C15",
+        "weight": 39,
+        "premium": false,
+        "loaded": false,
+        "slot": 4,
+        "containers": 2,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Varun Rajput",
+    "contact": "9473882945",
+    "email": "varun332@gmail.com",
+    "password": "1144847294",
+    "business": "Merchant",
+    "pan": "REKQH4439N",
+    "aadhaar": "",
+    "ship": 14,
+    "cargo": [
+      {
+        "id": "C21",
+        "weight": 21,
+        "premium": false,
+        "loaded": false,
+        "slot": 5,
+        "containers": 1,
+        "price": 20000
+      },
+      {
+        "id": "C22",
+        "weight": 33,
+        "premium": false,
+        "loaded": false,
+        "slot": 6,
+        "containers": 2,
+        "price": 20000
+      },
+      {
+        "id": "C23",
+        "weight": 52,
+        "premium": false,
+        "loaded": false,
+        "slot": 7,
+        "containers": 3,
+        "price": 45000
+      }
+    ]
+  },
+  {
+    "name": "Rudra Pandey",
+    "contact": "8834123399",
+    "email": "rpsus996@outlook.com",
+    "password": "8842992448",
+    "business": "Merchant",
+    "pan": "NNREN2230R",
+    "aadhaar": "",
+    "ship": 10,
+    "cargo": [
+      {
+        "id": "C31",
+        "weight": 23,
+        "premium": true,
+        "loaded": true,
+        "slot": null,
+        "containers": 1,
+        "price": 23000
+      },
+      {
+        "id": "C32",
+        "weight": 40,
+        "premium": false,
+        "loaded": false,
+        "slot": 8,
+        "containers": 2,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Arjan Shastri",
+    "contact": "8447283749",
+    "email": "arjanshastri23@gmail.com",
+    "password": "4438193748",
+    "business": "Merchant",
+    "pan": "EFNRJ2394K",
+    "aadhaar": "",
+    "ship": 7,
+    "cargo": [
+      {
+        "id": "C41",
+        "weight": 23,
+        "premium": false,
+        "loaded": false,
+        "slot": 9,
+        "containers": 1,
+        "price": 20000
+      },
+      {
+        "id": "C42",
+        "weight": 40,
+        "premium": true,
+        "loaded": false,
+        "slot": 10,
+        "containers": 2,
+        "price": 23000
+      }
+    ]
+  },
+  {
+    "name": "Tulsidas Khan",
+    "contact": "7738942054",
+    "email": "tulsiji334@outlook.com",
+    "password": "8549204493",
+    "business": "Merchant",
+    "pan": "TSKRW2390K",
+    "aadhaar": "",
+    "ship": 4,
+    "cargo": [
+      {
+        "id": "C51",
+        "weight": 33,
+        "premium": true,
+        "loaded": false,
+        "slot": 11,
+        "containers": 2,
+        "price": 23000
+      },
+      {
+        "id": "C52",
+        "weight": 70,
+        "premium": false,
+        "loaded": false,
+        "slot": 12,
+        "containers": 3,
+        "price": 45000
+      },
+      {
+        "id": "C53",
+        "weight": 44,
+        "premium": false,
+        "loaded": false,
+        "slot": 1,
+        "containers": 2,
+        "price": 20000
+      },
+      {
+        "id": "C54",
+        "weight": 64,
+        "premium": false,
+        "loaded": false,
+        "slot": 2,
+        "containers": 3,
+        "price": 45000
+      }
+    ]
+  },
+  {
+    "name": "Akshat Ganda",
+    "contact": "9090933871",
+    "email": "ak47inass@gmail.com",
+    "password": "5468242964",
+    "business": "Merchant",
+    "pan": "ASEUK2094C",
+    "aadhaar": "",
+    "ship": 19,
+    "cargo": [
+      {
+        "id": "C61",
+        "weight": 89,
+        "premium": false,
+        "loaded": false,
+        "slot": 3,
+        "containers": 4,
+        "price": 45000
+      },
+      {
+        "id": "C62",
+        "weight": 12,
+        "premium": false,
+        "loaded": false,
+        "slot": 4,
+        "containers": 1,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Vansh Bagal",
+    "contact": "6239079531",
+    "email": "iamgay@gmail.com",
+    "password": "8842992449",
+    "business": "Merchant",
+    "pan": "NNREN2230J",
+    "aadhaar": "",
+    "ship": 11,
+    "cargo": [
+      {
+        "id": "C71",
+        "weight": 3,
+        "premium": true,
+        "loaded": false,
+        "slot": 5,
+        "containers": 1,
+        "price": 11500
+      },
+      {
+        "id": "C72",
+        "weight": 40,
+        "premium": false,
+        "loaded": false,
+        "slot": 6,
+        "containers": 2,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Sanskar",
+    "contact": "8294637355",
+    "email": "lundlogemera396@outlook.com",
+    "password": "1842392448",
+    "business": "Merchant",
+    "pan": "NNSWN2930R",
+    "aadhaar": "",
+    "ship": 22,
+    "cargo": [
+      {
+        "id": "C81",
+        "weight": 67,
+        "premium": false,
+        "loaded": false,
+        "slot": 7,
+        "containers": 3,
+        "price": 45000
+      },
+      {
+        "id": "C82",
+        "weight": 40,
+        "premium": false,
+        "loaded": false,
+        "slot": 8,
+        "containers": 2,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "name": "Ayush Badyal",
+    "contact": "8082531802",
+    "email": "ayushbadyal6@gmail.com",
+    "password": "8842990889",
+    "business": "Merchant",
+    "pan": "REKEN8230R",
+    "aadhaar": "",
+    "ship": 5,
+    "cargo": [
+      {
+        "id": "C91",
+        "weight": 32,
+        "premium": true,
+        "loaded": false,
+        "slot": 9,
+        "containers": 2,
+        "price": 23000
+      },
+      {
+        "id": "C92",
+        "weight": 40,
+        "premium": false,
+        "loaded": false,
+        "slot": 10,
+        "containers": 2,
+        "price": 20000
+      },
+      {
+        "id": "C93",
+        "weight": 89,
+        "premium": false,
+        "loaded": false,
+        "slot": 11,
+        "containers": 4,
+        "price": 45000
+      },
+      {
+        "id": "C1794324039348",
+        "weight": 85,
+        "premium": true,
+        "loaded": false,
+        "slot": 2,
+        "containers": 4,
+        "price": 51750
+      }
+    ]
+  }
+]

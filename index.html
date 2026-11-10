@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dock Point</title><link rel="icon" href="assets/logo.png"><link rel="stylesheet" href="css/style.css"></head><body>
+
+<section class="view on" id="v-landing">
+  <img class="logo" src="assets/logo.png" alt="Dock Point logo"><h1>Dock Point</h1>
+  <p>Maritime Port Container Management</p><button class="btn big" onclick="show('v-login')">Open</button>
+</section>
+
+<section class="view" id="v-login">
+  <h2>Welcome to Dock Point</h2>
+  <div class="cards">
+    <div class="card" onclick="clientLogin()"><h3>Login as Client</h3><p>Register and track your cargo</p></div>
+    <div class="card" onclick="authLogin()"><h3>Login as Authority</h3><p>Manage ships, orders and labour</p></div>
+  </div>
+  <button class="link" onclick="show('v-landing')">&larr; Back</button>
+</section>
+
+<section class="view" id="v-signup">
+  <form id="sf" class="panel">
+    <h2>New Client Sign Up</h2>
+    <input name="name" placeholder="Full name (as per Aadhaar)" required>
+    <input name="contact" placeholder="Contact number (10 digits)" inputmode="numeric" pattern="[0-9]{10}" maxlength="10" required>
+    <input name="aadhaar" placeholder="Aadhaar number (12 digits)" inputmode="numeric" pattern="[0-9]{12}" maxlength="12" required>
+    <input name="email" type="email" placeholder="Email id (as per Aadhaar)" required>
+    <select name="business" required><option value="">Business profile</option><option>Merchant</option><option>Exporter</option><option>Importer</option><option>Trader</option><option>Freight Forwarder</option><option>Manufacturer</option></select>
+    <input name="password" type="password" placeholder="Password (10 digits)" pattern="[0-9]{10}" maxlength="10" required>
+    <input name="pan" placeholder="PAN number (CAPITAL letters)" pattern="[A-Z]{5}[0-9]{4}[A-Z]" maxlength="10" style="text-transform:uppercase" required>
+    <div class="cap"></div><p class="err"></p>
+    <button class="btn">Register</button> <button type="button" class="link" onclick="show('v-login')">Cancel</button>
+  </form>
+</section>
+
+<section class="view dash" id="v-client">
+  <header><img src="assets/logo.png"><b>Dock Point</b><span id="cname"></span><button class="link" onclick="logout()">Logout</button></header>
+  <div class="cards">
+    <div class="card" onclick="cargoM()"><h3>My Cargo</h3></div><div class="card" onclick="contM()"><h3>Containers</h3></div>
+    <div class="card" onclick="shipM()"><h3>Ship</h3></div><div class="card" onclick="schedM()"><h3>My Schedule</h3></div>
+  </div>
+</section>
+
+<section class="view dash" id="v-auth">
+  <header><img src="assets/logo.png"><b>Dock Point</b><span id="aname"></span><button class="link" onclick="logout()">Logout</button></header>
+  <div class="cards">
+    <div class="card" onclick="aShips()"><h3>Ships</h3></div><div class="card" onclick="aOrders()"><h3>Orders</h3></div>
+    <div class="card" onclick="aSched()"><h3>Schedule</h3></div><div class="card" onclick="aLabour()"><h3>Labour</h3></div>
+    <div class="card" onclick="aPrem()"><h3>Premium</h3></div>
+  </div>
+</section>
+
+<div id="modal"><div class="panel"><button class="x" onclick="closeM()">&times;</button><h2 id="mt"></h2><div id="mb"></div></div></div>
+<div id="toast"></div>
+<script src="data/seed.js"></script><script src="js/captcha.js"></script><script src="js/app.js"></script>
+</body></html>

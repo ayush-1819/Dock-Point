@@ -1,0 +1,224 @@
+{
+  "totalContainers": 2000,
+  "containerCapacityTon": 25,
+  "premiumCapacity": 10,
+  "labour": {
+    "total": 50000,
+    "assigned": 0,
+    "perTon": 15
+  },
+  "ships": [
+    {
+      "no": 1,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 2,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 3,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 4,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 5,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 6,
+      "status": "maintenance",
+      "maintenanceDays": 3
+    },
+    {
+      "no": 7,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 8,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 9,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 10,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 11,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 12,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 13,
+      "status": "maintenance",
+      "maintenanceDays": 5
+    },
+    {
+      "no": 14,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 15,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 16,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 17,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 18,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 19,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 20,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 21,
+      "status": "maintenance",
+      "maintenanceDays": 2
+    },
+    {
+      "no": 22,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 23,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 24,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 25,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 26,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 27,
+      "status": "maintenance",
+      "maintenanceDays": 7
+    },
+    {
+      "no": 28,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 29,
+      "status": "available",
+      "maintenanceDays": 0
+    },
+    {
+      "no": 30,
+      "status": "maintenance",
+      "maintenanceDays": 4
+    }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "date": "2026-11-12",
+      "time": "06:00"
+    },
+    {
+      "id": 2,
+      "date": "2026-11-12",
+      "time": "12:00"
+    },
+    {
+      "id": 3,
+      "date": "2026-11-12",
+      "time": "18:00"
+    },
+    {
+      "id": 4,
+      "date": "2026-11-13",
+      "time": "06:00"
+    },
+    {
+      "id": 5,
+      "date": "2026-11-13",
+      "time": "12:00"
+    },
+    {
+      "id": 6,
+      "date": "2026-11-13",
+      "time": "18:00"
+    },
+    {
+      "id": 7,
+      "date": "2026-11-14",
+      "time": "06:00"
+    },
+    {
+      "id": 8,
+      "date": "2026-11-14",
+      "time": "12:00"
+    },
+    {
+      "id": 9,
+      "date": "2026-11-14",
+      "time": "18:00"
+    },
+    {
+      "id": 10,
+      "date": "2026-11-15",
+      "time": "06:00"
+    },
+    {
+      "id": 11,
+      "date": "2026-11-15",
+      "time": "12:00"
+    },
+    {
+      "id": 12,
+      "date": "2026-11-15",
+      "time": "18:00"
+    }
+  ]
+}

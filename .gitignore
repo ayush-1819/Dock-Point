@@ -1,0 +1,11 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# User registrations (may contain personal information)
+data/new_users.json
